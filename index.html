@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare E-Shop</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fcf6f9;
+            color: #4a4a4a;
+        }
+        .wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            border-bottom: 2px solid #ffb3c1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main-nav a {
+            color: #4a4a4a;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+        .main-nav a:hover {
+            color: #ffb3c1;
+        }
+        .promo-banner {
+            background-color: #ffb3c1;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 20px 0;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .product-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-item:hover {
+            transform: translateY(-5px);
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .product-item h4 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-item p {
+            color: #666;
+            font-size: 14px;
+        }
+        .item-price {
+            color: #e6005c;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: block;
+            margin: 10px 0;
+        }
+        .add-to-cart-btn {
+            background-color: #e6005c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #a30040;
+        }
+        .page-footer {
+            background-color: #4a4a4a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .page-footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="site-logo">
+            <h1>🌸 GlowUp Skincare</h1>
+        </div>
+        <nav class="main-nav">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="promo-banner">
+            <div class="wrapper">
+                <h2>Find Your Natural Radiance</h2>
+                <p>Discover our range of handcrafted, plant-based skincare.</p>
+            </div>
+        </section>
+
+        <section class="wrapper">
+            <h3>Our Bestsellers</h3>
+            
+            <div class="product-list">
+                
+                <div class="product-item">
+                    <img src="C:\Users\Hp\Downloads\shopping.webp" alt="Face Serum">
+                    <h4>Hydrating Serum</h4>
+                    <p>A boost of hydration for your thirsty skin.</p>
+                    <span class="item-price">₹1,999</span>
+                    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+                </div>
+
+                <div class="product-item">
+                    <img src="C:\Users\Hp\Downloads\shopping (1).webp" alt="Face Cream">
+                    <h4>Daily Moisturizer</h4>
+                    <p>Protects and nourishes all day long.</p>
+                    <span class="item-price">₹1,450</span>
+                    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+                </div>
+
+                <div class="product-item">
+                    <img src="C:\Users\Hp\Downloads\shopping (2).webp" alt="Cleanser">
+                    <h4>Gentle Cleanser</h4>
+                    <p>Wash away the day's impurities gently.</p>
+                    <span class="item-price">₹990</span>
+                    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="wrapper">
+            <p>&copy; 2025 GlowUp Skincare. All rights reserved🫧🧴.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
